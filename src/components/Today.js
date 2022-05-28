@@ -1,11 +1,12 @@
 import React from "react";
+import "./components.css";
 
 const Today = () => {
     return (
-        <div className="last-month">
+        <div className="today">
             <h3>Transactions</h3>
-            <p>3</p>
-            <p>Today</p>
+            <p className="tx-count">3</p>
+            <p className="tx-timespan">TODAY</p>
         </div>
     )
 }

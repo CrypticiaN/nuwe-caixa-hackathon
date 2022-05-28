@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Transactionhistory from "./components/Transaction-history";
+import TxDiagram from "./components/Tx-diagram";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       </header>
       <main>
         <Transactionhistory />
+        <TxDiagram />
       </main>
     </div>
   );
